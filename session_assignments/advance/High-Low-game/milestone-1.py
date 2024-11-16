@@ -1,7 +1,4 @@
-"""
-Milestone #1: Generate the random numbers
-Generate the random numbers for you and the computer. For now, print both of them out to help you test the logic in later milestones.
-"""
+
 
 import random
 

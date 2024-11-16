@@ -1,7 +1,3 @@
-"""
-Milestone #2: Get the user choice
-Get user input for their choice of whether they think their number is higher or lower than the computer's number.
-"""
 
 import random
 

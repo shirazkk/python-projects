@@ -1,8 +1,3 @@
-"""
-Milestone #3: Write the game logic
-
-Write code that maps out all the ways to win the round and prints out the results. When does the user win? How might we check for this? (Note: If you and the computer share the same number, the computer should win since your number wouldn't be higher nor lower.)
-"""
 
 import random
 
