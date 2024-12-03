@@ -8,9 +8,7 @@ Enter a number: 12 Here are the divisors of 12 1 2 3 4 6 12
 """
 
 def print_divisors(num):
-    """
-    This function prints all the divisors of the given number.
-    """
+
     divisors = []  # List to store divisors
     
     # Find divisors from 1 to num

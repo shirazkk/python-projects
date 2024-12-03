@@ -8,18 +8,13 @@ Howdy Sophia ! 🤠
 """
 
 def get_name():
-    """
-    This function returns your name as a string.
-    """
-    return "Shiraz"  # Replace "Sophia" with your desired name if needed
+
+    return "Shiraz"
 
 def main():
-    """
-    Main function to call get_name() and print a greeting.
-    """
+
     name = get_name()
     print(f"Hello {name}! 🤠")
 
-# Call the main function
 if __name__ == "__main__":
     main()

@@ -12,10 +12,8 @@ Here's a sample run of the program (user input is in blue):
 Please type a noun, verb, or adjective: groovy Is this a noun, verb, or adjective? Type 0 for noun, 1 for verb, 2 for adjective: 2 Looking out my window, the sky is big and groovy!
 """
 
-def make_sentence(word, part_of_speech):
-    """
-    This function creates a sentence using the provided word based on its part of speech.
-    """
+def make_sentence(word:str, part_of_speech:int):
+
     if part_of_speech == 0:  # Noun
         print(f"I am excited to add this {word} to my vast collection of them!")
     elif part_of_speech == 1:  # Verb
@@ -26,11 +24,9 @@ def make_sentence(word, part_of_speech):
         print("Invalid part of speech!")
 
 def main():
-    """
-    Main function to get user input and call make_sentence() with the appropriate parameters.
-    """
-    word = input("Please type a noun, verb, or adjective: ")
-    part_of_speech = int(input("Is this a noun, verb, or adjective? Type 0 for noun, 1 for verb, 2 for adjective: "))
+
+    word:str = str(input("Please type a noun, verb, or adjective: "))
+    part_of_speech:int = int(input("Is this a noun, verb, or adjective? Type 0 for noun, 1 for verb, 2 for adjective: "))
     make_sentence(word, part_of_speech)
 
 # Call the main function

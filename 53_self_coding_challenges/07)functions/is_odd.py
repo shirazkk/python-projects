@@ -4,9 +4,7 @@ Problem Statement
 """
 
 def even_odd_sequence():
-    """
-    Prints numbers from 10 to 19 with their classification as even or odd.
-    """
+    
     for num in range(10, 20):  # Iterate from 10 to 19
         if num % 2 == 0:  # Check if the number is even
             print(f"{num} even", end=" ")
